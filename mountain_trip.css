@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("images/mountaine\ inage.png");
+    
+}
+header{
+    width: 100%;
+    background-color: rgba(217, 217, 217, 0.45);
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px 60px;
+}
+.menu{
+    display: flex;
+    
+} 
+nav{
+    margin: auto;
+}
+nav a{
+    text-decoration: dotted;
+    color: rgba(255, 255, 255, 1);
+
+}
+a{
+    margin: 40px;
+    left: 25%;
+   
+}
+b{
+    font-style:inherit;
+    font-size: 30px;
+}
+h1{
+    color: aliceblue;
+}
+h1, h2{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.square{
+    width: 350px;
+    height: 320px;
+    margin: 200px 0 0 80px;
+   
+   
+    
+}
+h3{
+    font-size: 35px;
+    color: aliceblue;
+    margin: 0 10px 10px 10px ;
+}
+p{
+    color: aliceblue;
+    margin: 0 10px 10px 10px ;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10px 10px 10px ;
+}
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgba(9, 194, 174, 1);
+    text-align: center;
+    color: aliceblue;
+    margin: 0 10px 10px 10px ;
+}
